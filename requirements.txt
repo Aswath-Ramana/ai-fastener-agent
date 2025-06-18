@@ -9,7 +9,8 @@ openpyxl
 # AI and Search
 openai
 faiss-cpu
-sentence-transformers # This is the library behind your matcher.py
+sentence-transformers
+rapidfuzz               # <--- ADD THIS LINE
 
 # Utilities
 python-dotenv
