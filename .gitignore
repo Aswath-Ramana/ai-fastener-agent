@@ -1,0 +1,19 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Data and test files that should not be in the repository
+data/
+order_data/
+
+# Redundant/Old build artifacts
+faiss_catalog_index/
+assistant_knowledge_base.txt
+
+# Don't commit the preparation scripts to the deployment branch (optional but good practice)
+# prepare_*.py
+# convert_*.py
